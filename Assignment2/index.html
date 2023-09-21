@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <menu>
+        <a href="#main"><img src="Images/AkhilLogo.jpg" alt="Brand Logo" /></a>
+        <a href="#about"><button class="headerButton">About</button></a>
+        <a href="#skills"><button class="headerButton">Skills</button></a>
+        <a href="#work"><button class="headerButton">work</button></a>
+        <a href="#certificate"
+          ><button class="headerButton">Certificates</button></a
+        >
+        <a href="#contact"><button class="headerButton">Contact</button></a>
+      </menu>
+    </header>
+    <div class="container-main" id="main">
+      <div class="container-mainContent">
+        <h1>Hi, I'm AKHILESH.</h1>
+        <p>Software Developer, Tech Enthusiast</p>
+        <a href="#about"><img src="Images/arrowDown.jpg" alt="Arrow Down" /></a>
+      </div>
+    </div>
+    <div class="container-about" id="about">
+      <audio autoplay>
+        <source src="Audio/introAudio.mp3" type="audio/mp3" />
+      </audio>
+      <div class="container-aboutContent">
+        <h2>About Me</h2>
+        <img src="Images/profilePicture.jpg" alt="profilePicture" />
+        <p>
+          I am a dedicated Software Engineer with a versatile skill set and a
+          strong academic foundation in Electronics and Communications
+          Engineering, complemented by a Master's degree in Software Engineering
+          Systems from
+          <a href="https://www.northeastern.edu/" target="_blank"
+            >Northeastern University.</a
+          >
+          My professional journey includes contributing to the transformation of
+          web applications, integrating APIs, and enhancing user experiences. As
+          a proactive learner, I have successfully undertaken projects ranging
+          from IoT-based health monitoring to computer vision-based object
+          recognition. Proficient in a wide array of programming languages and
+          web technologies, I am passionate about leveraging innovation to solve
+          complex challenges in the world of software development. Connect with
+          me on LinkedIn to explore opportunities for collaboration and exchange
+          ideas in the ever-evolving tech landscape.
+        </p>
+      </div>
+    </div>
+    <div class="container-skills" id="skills">
+      <div class="heading-section">
+        <h2>Skills</h2>
+      </div>
+      <div class="container-skillsContent">
+        <div class="column column1">
+          <img src="Images/build.jpg" alt="Dev Icon" />
+          <h3>Development</h3>
+          <div class="devGrid">
+            <div class="grid-item">HTML</div>
+            <div class="grid-item">CSS</div>
+            <div class="grid-item">React.Js</div>
+            <div class="grid-item">Django</div>
+            <div class="grid-item">.NET</div>
+            <div class="grid-item">Python</div>
+            <div class="grid-item">Node.Js</div>
+            <div class="grid-item">JavaScript</div>
+            <div class="grid-item"></div>
+          </div>
+        </div>
+        <div class="column column2">
+          <img src="Images/tools.jpg" alt="Tools Logo" />
+          <h3>Tools</h3>
+          <br />
+          <ul>
+            <li>Git and Github</li>
+            <li>Chrome DevTools</li>
+            <li>Postman</li>
+            <li>Command Line</li>
+          </ul>
+        </div>
+        <div class="column column3">
+          <img src="Images/knowledge.jpg" alt="Knowledge Logo" />
+          <h3>Knowledge</h3>
+          <br />
+          <ul>
+            <li>CSS Detangling</li>
+            <li>Building Scalabe APIs</li>
+            <li>Database system</li>
+            <li>ECMA Script</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container-work" id="work">
+      <h2>Experience and Projects</h2>
+      <div class="column-container-work">
+        <div class="workColumn column6">
+          <ul class="main-list">
+            <li>
+              <h3>Software Engineer at Sony India</h3>
+              <ul class="sub-list">
+                <li>
+                  Worked on application to re-architect a multi page web-app to
+                  single page web-app, boosting performance and engagement.
+                </li>
+                <li>
+                  Built a single page web application that tracks the employee's
+                  status (WFH, WFO, Leave), which helps increase the team's
+                  efficiency, housed on AWS.
+                </li>
+                <li>
+                  Gained knowledge of the.NET framework and contributed to the
+                  Integration of API and functionality to Viewing Ex App.
+                  Created Active directory login for user Authentication.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3>Software Engineer Intern at Vrize</h3>
+              <ul class="sub-list">
+                <li>
+                  Developed websites from front to backend using HTML
+                  javascript, react.js and Django Rest framework, Hosted on AWS
+                  EC2. Modified components to optimize page's performance for
+                  loading and browsing.
+                </li>
+                <li>
+                  Built a RESTful API for user Authentication and also served
+                  data to javascript frontend based on dynamically chosen input.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="workColumn column7">
+          <ul class="main-list">
+            <li>
+              <h3>Post COVID - Lung Capacity Monitoring System using IOT</h3>
+              <ul class="sub-list">
+                <details>
+                  <summary>
+                    Objective : To simplify the evaluation of lung capacity or
+                    respiration rate for medical specialists.
+                  </summary>
+                  <p>
+                    <li>
+                      Inhaling and Exhaling Rates are recorded using air
+                      pressure sensors and uploaded to a database using Wifi
+                      module in realtime, data is fetched, visualized and
+                      clustered (K Means), using unsupervised machine learning
+                      algorithms. 84 percent accuracy was achieved.
+                    </li>
+                    <li>
+                      The model is trained using various respiration types and
+                      rates to predict a positive outcome.
+                    </li>
+                  </p>
+                </details>
+              </ul>
+            </li>
+            <li>
+              <h3>Object Detection Model Using Machine Learning</h3>
+              <ul class="sub-list">
+                <details>
+                  <summary>
+                    Objective : To facilitate Object-based learning for children
+                    with Autism
+                  </summary>
+                  <p>
+                    <li>
+                      Data is processed and fed using computer vision
+                      libraries,feature extraction is done by measuring mean
+                      pixel value, support vector machine(SVM) used to classify
+                      and label the objects. Achieved an accuracy of 92 percent.
+                    </li>
+                    <li>
+                      Every Object is labeled with custom shaped boxes to help
+                      autistic children learn better and faster.
+                    </li>
+                  </p>
+                </details>
+              </ul>
+            </li>
+            <li>
+              <h3>Plant Disease Detection Model using CNN</h3>
+              <ul class="sub-list">
+                <details>
+                  <summary>
+                    Objective : To Identify plant disease using Machine Learning
+                    Algorithm
+                  </summary>
+                  <p>
+                    <li>
+                      Model Trained to analyze images and feed input to CNN,
+                      followed by the use of the ReLU activation function to
+                      eliminate non-linearity, Normalization, and provide 42
+                      categories.
+                    </li>
+                    <li>
+                      91.6% accuracy rate was achieved using early stopping
+                      while Training the model on 80 epochs.
+                    </li>
+                  </p>
+                </details>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container-certificates" id="certificate">
+      <div class="headingCertificates">
+        <h2>Certifications</h2>
+      </div>
+      <div class="box">
+        <div class="certificate1">
+          <img src="Images/ArduinoCertificate.jpg" alt="Arduino certificate" />
+          <div class="caption">Arduino Long distance Communications</div>
+        </div>
+
+        <div class="certificate2">
+          <img
+            src="Images/JavascriptCertificate.jpg"
+            alt="Javascript certificate"
+          />
+          <div class="caption">Javascript certification</div>
+        </div>
+      </div>
+    </div>
+    <div class="container-contact" id="contact">
+      <div class="video-container">
+        <video autoplay loop muted>
+          <source src="Video/contactBackground2.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="container-contactContent">
+        <div class="columnContact column4">
+          <img src="Images/contactUs.jpg" alt="ContactLogo" />
+          <h2>Get in Touch!</h2>
+          <table>
+            <tr>
+              <th>Contact Method</th>
+              <th>Details</th>
+            </tr>
+            <tr>
+              <td>Name:</td>
+              <td>Akhilesh S Kumbar</td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td>
+                <a href="mailto:kumbar.a@northeastern.edu"
+                  >kumbar.a@northeastern.edu</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Phone:</td>
+              <td><a href="telto:+1(857)265-0808">+1 (857) 265-0808</a></td>
+            </tr>
+          </table>
+        </div>
+        <div class="columnContact column5">
+          <h3>For any project ideas !</h3>
+          <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <br />
+      <a href="#main"><img src="Images/upwardArrow.jpg" alt="" /></a>
+      <br />
+      <div class="container-footerSocialMedia">
+        <img src="Images/facebook.jpg" alt="Facebook" />
+        <a href="https://github.com/akhil8951" target="_blank"
+          ><img src="Images/github.jpg" alt="Github"
+        /></a>
+        <img src="Images/instagram.jpg" alt="Instagram" />
+        <img src="Images/twitter.jpg" alt="Twitter" />
+        <a href="https://www.linkedin.com/in/akhileshkumbar/" target="_blank"
+          ><img src="Images/linkedin.jpg" alt="LinkedIn"
+        /></a>
+        <p>&copy; Akhilesh S Kumbar</p>
+      </div>
+    </footer>
+  </body>
+</html>
