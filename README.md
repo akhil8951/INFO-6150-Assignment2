@@ -33,11 +33,6 @@ This project is a simple yet elegant portfolio website that highlights my skills
 - [x] audio
 - [x] video
 
-
-## Screenshots
-
-![Portfolio Website](screenshots/portfolio.png)
-
 ## Installation
 
 1. Clone the repository to your local machine:
